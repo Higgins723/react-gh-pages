@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
+import { NavLink as RRNavLink, Link } from "react-router-dom";
 import {
   Collapse,
   Navbar,
   NavbarToggler,
-  NavbarBrand,
   Nav,
   NavItem,
   NavLink,
@@ -19,15 +19,12 @@ const Navigation = () => {
 
   return (
     <Navbar color="dark" dark expand="md">
-      <NavbarBrand href="/">Josh Higgins</NavbarBrand>
+      <Link className="brand" replace to="/">Josh Higgins</Link>
       <NavbarToggler onClick={() => updateIsOpen(!isOpen)} />
       <Collapse isOpen={isOpen} navbar>
         <Nav className="ml-auto" navbar>
           <NavItem>
-            <NavLink href="/components/">Components</NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+            <NavLink replace tag={RRNavLink} to="/components">Components</NavLink>
           </NavItem>
           <UncontrolledDropdown nav inNavbar>
             <DropdownToggle nav caret>
