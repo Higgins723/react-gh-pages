@@ -24,7 +24,7 @@ const Navigation = () => {
       <Collapse isOpen={isOpen} navbar>
         <Nav className="ml-auto" navbar>
           <NavItem>
-            <NavLink replace tag={RRNavLink} to="/components">Components</NavLink>
+            <NavLink replace tag={RRNavLink} to="/projects">Projects</NavLink>
           </NavItem>
           <UncontrolledDropdown nav inNavbar>
             <DropdownToggle nav caret>
