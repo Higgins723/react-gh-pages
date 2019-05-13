@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -26,4 +28,26 @@
     text-decoration: none;
     color: #fff;
   }
+}
+
+.name-style {
+  font-family: 'Titillium Web', sans-serif;
+  position: relative;
+  text-align: center;
+  color: black;
+  top: 5rem;
+  h3 {
+    font-style: italic;
+    font-size: 1.4rem;
+  }
+  h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 2.5px;
+  }
+}
+
+.home-image {
+  background-color: rgba(200,100,0,.5); // Tint color
+  background-blend-mode: multiply;
 }
