@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 .bd-placeholder-img {
   font-size: 1.125rem;
@@ -50,4 +51,49 @@
 .home-image {
   background-color: rgba(200,100,0,.5); // Tint color
   background-blend-mode: multiply;
+}
+
+.title-text {
+  padding: 50px 0 50px 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.title-text-sml {
+  padding: 50px 0 20px 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+
+.large-padding {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.work-image {
+  width: 150px;
+}
+
+.pb {
+  padding-bottom: 3rem;
+}
+
+.project {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.sm-padding-btm {
+  padding-bottom: 10px;
+}
+
+.linkedin {
+    margin: auto;
+    display: block;
+    width: 100px;
+}
+
+.lmb {
+  margin-bottom: 50px;
 }
