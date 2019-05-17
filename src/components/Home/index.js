@@ -1,5 +1,6 @@
 import React from 'react';
 import { ParallaxBanner } from 'react-scroll-parallax';
+import slc from '../../images/slc.jpg';
 
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
       className="home-image"
       layers={[
         {
-            image: 'https://www.hallevans.com/wp-content/uploads/2019/02/SLC_Media.jpg',
+            image: slc,
             amount: 0.4,
         },
       ]}
