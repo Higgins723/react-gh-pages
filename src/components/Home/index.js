@@ -1,6 +1,6 @@
 import React from 'react';
 import { ParallaxBanner } from 'react-scroll-parallax';
-import slcdark1 from '../../images/slcdark1.jpg';
+import zions from '../../images/zions.jpg';
 
 const Home = () => {
   return (
@@ -8,7 +8,7 @@ const Home = () => {
       className="home-image"
       layers={[
         {
-            image: slcdark1,
+            image: zions,
             amount: 0.4,
         },
       ]}
